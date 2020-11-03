@@ -14,3 +14,5 @@ Evolution algorithm
 - poté následuje navolení hyperparametrů jako počet generací, mutation rate a 
   velikost populace
 - jakmile má toto uživatel navoleno stačí spustit main_ea.py
+
+Report o výsledcích je v souboru report.pdf
