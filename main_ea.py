@@ -7,7 +7,7 @@ problem_bayg29 = tsplib95.load('bayg29.tsp')
 problem_bays29 = tsplib95.load('bays29.tsp')
 
 #setting one as active
-problem = problem_bays29
+problem = problem_bayg29
 
 #loading solutions to 3 instances
 optimalSolution_a280 = 2579
@@ -15,7 +15,7 @@ optimalSolution_bayg29 = 1610
 optimalSolution_bays29 = 2020
 
 #chosing one as active
-optimalSolution = optimalSolution_bays29
+optimalSolution = optimalSolution_bayg29
 
 print("Evolution algorithm experiments: \n")
 #get edges

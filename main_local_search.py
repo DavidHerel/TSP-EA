@@ -39,7 +39,7 @@ print("Fitness: " + str(countFitness(nodes, problem, optimalSolution)))
 print("")
 print("Starting from multiple random solutions and optimize each of those and choose the best:")
 best = 0
-multiple_solutions = 5000
+multiple_solutions = 100
 print("Number of multiple starts is: " + str(multiple_solutions))
 for i in range(multiple_solutions):
     #create random valid solution
